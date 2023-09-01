@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Intro component with sign up form</title>
+  </head>
+  <body>
+    <section class="intro">
+      <div class="intro__info">
+        <h2 class="intro__heading">
+          Learn to code by <br />
+          watching others
+        </h2>
+        <p class="intro__paragraph">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think is
+          invaluable.
+        </p>
+      </div>
+      <div class="intro__action">
+        <button class="intro__C-t-A">Try it free 7 days</button>
+        <form action="" class="intro__form">
+          <div class="intro__inputs">
+            <input
+              type="text"
+              class="intro__input"
+              placeholder="First Name"
+              id="intro__input"
+              name="Fname"
+              required
+            />
+            <label for="intro__input" class="text-warning visually-hidden"
+              >First Name cannot be empty</label
+            >
+            <input
+              type="text"
+              class="intro__input"
+              placeholder="Last Name"
+              name="Lname"
+              required
+            />
+            <label for="intro__input" class="text-warning visually-hidden"
+              >Last Name cannot be empty</label
+            >
+            <input
+              type="email"
+              class="intro__input"
+              placeholder="Email Address"
+              name="name"
+              required
+            />
+            <label for="intro__input" class="text-warning visually-hidden"
+              >Looks like this is not an email</label
+            >
+            <input
+              type="password"
+              name="password"
+              class="intro__input"
+              placeholder="Password"
+              required
+            />
+            <label for="intro__input" class="text-warning visually-hidden"
+              >Password cannot be empty</label
+            >
+          </div>
+          <input
+            type="submit"
+            class="intro__button"
+            value="CLAIM YOUR FREE TRIAL"
+          />
+          <p class="terms__service">
+            By clicking the button, you are agreeing to our<a
+              href="#"
+              class="terms_link"
+            >
+              Terms and Services</a
+            >
+          </p>
+        </form>
+      </div>
+    </section>
+    <!-- Learn to code by watching others See how experienced developers solve
+    problems in real-time. Watching scripted tutorials is great, but
+    understanding how developers think is invaluable. Try it free 7 days then
+    $20/mo. thereafter First Name Last Name Email Address Password Claim your
+    free trial By clicking the button, you are agreeing to our Terms and
+    Services -->
+
+    <!-- <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer> -->
+  </body>
+  <script src="./script.js"></script>
+</html>
